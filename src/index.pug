@@ -4,27 +4,32 @@ html
         title Prima pagina
         link(rel="stylesheet", href="style.css")
     body
+    block cool-congif
+    var 
         #header
-                h1 w3schools.com
-        #nav
+               h1 w3schools.com
+        #navup
             ul
                 li
-                    a(href="#") Tutorial
-                      #subnav
-                            ul
-                                li
-                                    a(href="#") Masina
-                                    a(href="#") Masina
-                                    a(href="#" ) Masina
-                    a(href="#") Referances
+                    a(href="/tutoriale") Tutorials
+                    a(href="/example") Referances
                     a(href="#") Examples
-                    a(href="#" ) Exercices
+                        li#dropdown
+                            a#dropbtn(href="#") Exercices
+                            #dropdown-content
+                                a(href="#")  Learn Css
+                                a(href="#") Learn Bootstrap
+                                a(href="#") Learn w3.css
+                                a(href="/html/css/Colors") Colors
+                                a(href="#") Icons
+                                a(href="#") Graphics
+                                a(href="#") SVG
         #navleft
             h1 Html and CSS
             a(href="") Learn HTML
             a(href="") Learn Css
             a(href="") Learn W3.CSS
-            a(href="") Learn Colors
+            a(href="/html/css/Colors") Learn Colors
             a(href="") Learn Bootstrap
             a(href="") Learn Icons
             a(href="") Learn Graphics
@@ -69,7 +74,7 @@ html
                     h1 HTML
                     p The language fdor building web pages
                     a(href="") LEARN HTML
-                    a(href="") Html Referance
+                    a(href="") HTML Referance
                 #right
                  #scris
                     h1 HTML Example:
@@ -82,17 +87,5 @@ html
                     p p This is paragraph p
                     p Body
                     p html
-            #middle
-                #lefttwo
-                    h1 CSS Example
-                    p h1 color.white
-                     p { text align.center   
-                    p }
-                    p { font-family : verdana
-                    p font.size :20px
-                    p } 
-                #righttwo
-                    h1 CSS
-                    p The language for styling web pages
 
-  
+
