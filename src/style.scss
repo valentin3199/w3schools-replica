@@ -1,5 +1,5 @@
 #header{
-    font-size: 30px;
+    font-size: 40px;
     color: green;
     text-align: center;
 }
@@ -106,7 +106,141 @@ li#dropdown {
     border: 5px outset grey;
     float: right;
 }
+#eu{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+#com{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#q{
+    font-size: 40px;
+    color: #3498db;
+}
+#w{
+    font-size: 40px;
+    color: #e67e22;
+}
+#e{
+    font-size: 40px;
+    color: #e74c3c;
+}
+#upa{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat",sans-serif;
+  }
+  
+  #loading{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 10px solid #e74c3c;
+    position: relative;
+    animation: a1 2s linear infinite;
+  }
+  
+  #loading::before,#loading::after{
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+#loading::before{
+    border-top: 10px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+#loading::after{
+    border-top: 10px solid #3498db;
+    transform: rotate(240deg);
+  }
+  
+#loading span{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    animation: a2 2s linear infinite;
+  }
+  @keyframes a1 {
+    to{
+      transform: rotate(360deg);
+    }
+  }
+   @keyframes a2 {
+    to{
+      transform: rotate(-360deg);
+    }
+  }
 
+#loadingg{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 10px solid #e74c3c;
+    position: relative;
+    animation: a1 2s linear infinite;
+  }
+  
+#loadingg::before,#loadingg::after{
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  #loadingg::before{
+    border-top: 10px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+  #loadingg::after{
+    border-top: 10px solid #3498db;
+    transform: rotate(240deg);
+  }
+  
+  #loadingg span{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    animation: a2 2s linear infinite;
+  }
+  
+  @keyframes a1 {
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes a2 {
+    to{
+      transform: rotate(-360deg);
+    }
+  }
 
 
 
